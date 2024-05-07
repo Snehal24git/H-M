@@ -1,0 +1,23 @@
+class P
+{
+    P()
+    {
+        System.out.println("P class");
+    }
+}
+
+class C extends P
+{
+    C()
+    {
+        System.out.println("C class");
+    }
+}
+
+class Demo5
+{
+    void main()
+    {
+        C c=new C();
+    }
+}
